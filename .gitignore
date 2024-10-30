@@ -1,15 +1,46 @@
+# Unity generated files
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-[Aa]ssets/AssetStoreTools*
-[Tt]ests/
+[Ll]ogs/
+
+# iOS-specific build files
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/
+
+# Auto-generated Unity files
 *.csproj
 *.unityproj
 *.sln
-*.userprefs
+*.suo
 *.pidb
-*.user
 *.booproj
-*.svd
+*.user
+*.userprefs
+
+# Visual Studio
+.vscode/
+.vs/
+
+# Other Unity-generated files and folders
+*.apk
+*.aab
+*.symbols
+*.mdb
+*.pdb
+
+# User-specific files
+UserSettings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Mac/iOS specific
+*.lock
+*.xcuserstate
+xcuserdata/
