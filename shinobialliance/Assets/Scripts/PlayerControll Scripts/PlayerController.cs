@@ -1,6 +1,5 @@
-using System.Collections; // Add this line
+using System.Collections;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,10 +12,9 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
-    public float attackRange = 1f; // Set the attack range
+    public float attackRange = 1.2f; // Set the attack range
     public float attackDuration = 0.5f; // Duration of the attack
-    private BoxCollider2D attackCollider; // Reference to attack collider
-
+    private BoxCollider2D attackCollider; // Reference to the attack collider
 
     private void Start()
     {
@@ -24,35 +22,15 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         rigidBodyVar = GetComponent<Rigidbody2D>();
 
-        // Create and configure the attack collider
-        attackCollider = gameObject.AddComponent<BoxCollider2D>();
+        // Reference the attack collider from the child GameObject
+        attackCollider = transform.Find("AttackCollider").GetComponent<BoxCollider2D>();
         attackCollider.size = new Vector2(attackRange, attackRange); // Set the attack collider size
-        attackCollider.isTrigger = true; // Set as trigger
         attackCollider.enabled = false; // Disable initially
-
     }
-
-    //private void Update()
-    //{
-    //    // Get input from the joystick
-    //    moveInput = new Vector2(joystick.Horizontal, joystick.Vertical);
-
-    //    // Move the player based on joystick input
-    //    Vector3 move = new Vector3(moveInput.x, moveInput.y, 0) * moveSpeed * Time.deltaTime;
-    //    transform.position += move;
-
-    //    HandleAnimation();
-    //}
 
     public void Attack()
     {
         StartCoroutine(AttackCoroutine());
-    }
-
-    private void Update()
-    {
-        moveInput = new Vector2(joystick.Horizontal, joystick.Vertical);
-        HandleAnimation();
     }
 
     private IEnumerator AttackCoroutine()
@@ -60,8 +38,8 @@ public class PlayerController : MonoBehaviour
         // Enable the attack collider
         attackCollider.enabled = true;
 
-        // Play attack animation (optional)
-        animator.SetTrigger("Attack"); // Ensure you have an attack trigger in your Animator
+        // Play attack animation
+        animator.SetTrigger("Attack"); // Ensure this matches the trigger name in the Animator
 
         // Wait for the duration of the attack
         yield return new WaitForSeconds(attackDuration);
@@ -76,6 +54,12 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collision.gameObject); // Destroy the enemy
         }
+    }
+
+    private void Update()
+    {
+        moveInput = new Vector2(joystick.Horizontal, joystick.Vertical);
+        HandleAnimation();
     }
 
     private void FixedUpdate()
@@ -104,36 +88,14 @@ public class PlayerController : MonoBehaviour
             if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
             {
                 // Horizontal movement
-                if (moveInput.x > 0)
-                {
-                    animator.SetBool("IsMovingRight", true);
-                }
-                else
-                {
-                    animator.SetBool("IsMovingRight", false);
-                }
-
-
-                if (moveInput.x < 0)
-                {
-                    animator.SetBool("IsMovingLeft", true);
-                }
-                else
-                {
-                    animator.SetBool("IsMovingLeft", false);
-                }
+                animator.SetBool("IsMovingRight", moveInput.x > 0);
+                animator.SetBool("IsMovingLeft", moveInput.x < 0);
             }
             else
             {
                 // Vertical movement
-                if (moveInput.y > 0)
-                {
-                    animator.SetBool("IsMovingUp", true);
-                }
-                else
-                {
-                    animator.SetBool("IsMovingDown", true);
-                }
+                animator.SetBool("IsMovingUp", moveInput.y > 0);
+                animator.SetBool("IsMovingDown", moveInput.y < 0);
             }
         }
     }

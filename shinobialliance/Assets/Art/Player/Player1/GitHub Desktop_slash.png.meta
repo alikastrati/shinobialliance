@@ -106,9 +106,442 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 641
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a75205532e42a4aad9c4b143b7ffb5
+      internalID: 1582782971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 641
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cc1d246c2438f4388faac0f41617d4
+      internalID: -1472884579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_2
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 641
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e08e9e00b43d947bf15f6baff3c5a0
+      internalID: -667615672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_3
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 641
+        width: 81
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f3db516708f264d89feeb480d7b26a
+      internalID: 352312613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 641
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d1fc00ee7e0244965cb320668e118
+      internalID: -160754302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 450
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d31a6fb910f3284c94434bd3e5993ce
+      internalID: -452266901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 450
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bcadf8da876894fbf8f1ffe8d6754d
+      internalID: -1923899870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 450
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a9035e4bd04b44d8707428721984e4
+      internalID: 244268527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 450
+        width: 91
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaf1a0ad258c4a458d5bdedc232ac6d
+      internalID: -1471227663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_9
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 450
+        width: 91
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435fb24a7fa0fb4696aabb799198b69
+      internalID: 916317704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 258
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4560160e1785ba43abdf887bd237461
+      internalID: 1919508221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 258
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c1422c603cd6429af95cb2a4912b6
+      internalID: -970675588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 258
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa39b77a91129f445b61f87b76094ecb
+      internalID: -1493074779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_13
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 237
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e633a48bf22f243a08a5e2758acfbc
+      internalID: 157571401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_14
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 242
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d4c479b2ead9a4389c332270faf6c8
+      internalID: -2100958963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 66
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc0aa8526cb6724fac961c0c7ef070f
+      internalID: -1308666329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 66
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de04e32751a27974086b822971c91ee1
+      internalID: -1362311317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_17
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 66
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5c59f828fa45f45bacf136860158ab
+      internalID: 1763558486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_18
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 66
+        width: 91
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd15a8fffca0e41488150c0586b50ffb
+      internalID: 1348395926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GitHub Desktop_slash_19
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 66
+        width: 91
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be37504f828b1624c9e25d0a497f3dd9
+      internalID: -1533702193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +552,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GitHub Desktop_slash_0: 1582782971
+      GitHub Desktop_slash_1: -1472884579
+      GitHub Desktop_slash_10: 1919508221
+      GitHub Desktop_slash_11: -970675588
+      GitHub Desktop_slash_12: -1493074779
+      GitHub Desktop_slash_13: 157571401
+      GitHub Desktop_slash_14: -2100958963
+      GitHub Desktop_slash_15: -1308666329
+      GitHub Desktop_slash_16: -1362311317
+      GitHub Desktop_slash_17: 1763558486
+      GitHub Desktop_slash_18: 1348395926
+      GitHub Desktop_slash_19: -1533702193
+      GitHub Desktop_slash_2: -667615672
+      GitHub Desktop_slash_3: 352312613
+      GitHub Desktop_slash_4: -160754302
+      GitHub Desktop_slash_5: -452266901
+      GitHub Desktop_slash_6: -1923899870
+      GitHub Desktop_slash_7: 244268527
+      GitHub Desktop_slash_8: -1471227663
+      GitHub Desktop_slash_9: 916317704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
