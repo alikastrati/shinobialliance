@@ -1,11 +1,13 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI; // Make sure to include this for using the Image component
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     private Vector2 moveInput;
     private Rigidbody2D rigidBodyVar;
+    public int health = 5; // Start with full health (5)
 
     // Reference to the joystick
     public Joystick joystick;
@@ -15,6 +17,10 @@ public class PlayerController : MonoBehaviour
     public float attackRange = 1.2f; // Set the attack range
     public float attackDuration = 0.5f; // Duration of the attack
     private BoxCollider2D attackCollider; // Reference to the attack collider
+
+    // Reference to the health bar UI
+    public Image healthBarImage; // Drag your HealthBar Image here in the Inspector
+    public Sprite[] healthBarSprites; // Array for your health bar sprites
 
     private void Start()
     {
@@ -26,6 +32,7 @@ public class PlayerController : MonoBehaviour
         attackCollider = transform.Find("AttackCollider").GetComponent<BoxCollider2D>();
         attackCollider.size = new Vector2(attackRange, attackRange); // Set the attack collider size
         attackCollider.enabled = false; // Disable initially
+        attackCollider.isTrigger = true; // Ensure this collider is a trigger
     }
 
     public void Attack()
@@ -50,9 +57,25 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy")) // Make sure enemies are tagged as "Enemy"
+        if (collision.CompareTag("Enemy")) // Check if the collided object is an enemy
         {
             Destroy(collision.gameObject); // Destroy the enemy
+            Debug.Log("Enemy destroyed!");
+        }
+    }
+
+    public void UpdateHealthBar()
+    {
+        // Update the health bar sprite based on the current health
+        if (health >= 0 && health < healthBarSprites.Length)
+        {
+            healthBarImage.sprite = healthBarSprites[health]; // Set the sprite according to the current health
+            Debug.Log($"Health updated to {health}. Sprite set to {healthBarSprites[health].name}.");
+        }
+        else if (health < 0)
+        {
+            healthBarImage.sprite = healthBarSprites[0]; // Set to empty health sprite if health is below 0
+            Debug.Log("Health below 0. Setting to empty health sprite.");
         }
     }
 

@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float speed = 2f;
-    public Transform player; 
+    public Transform player;
 
     private void Start()
     {
@@ -23,17 +23,20 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) // Ensure your Player has the "Player" tag
         {
-            // Call a method to handle player death
-            PlayerDie();
+            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+            if (playerController != null)
+            {
+                playerController.health--; // Reduce player health
+                playerController.UpdateHealthBar(); // Update the health bar display
+
+                if (playerController.health <= 0)
+                {
+                    // Handle player death
+                    Debug.Log("Player has died!");
+                    Destroy(collision.gameObject); // Destroy the player GameObject
+                }
+                // Do not destroy the enemy here; let it continue to exist.
+            }
         }
     }
-
-    private void PlayerDie()
-    {
-        // Logic to end the game or trigger a game over state
-        Debug.Log("Player has died!");
-        // Optionally: Destroy the player, show a game over screen, etc.
-        // For example: Destroy(collision.gameObject);
-    }
-
 }
