@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\shinobialliance\\shinobialliance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\coinscripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinscripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAEAAAAAAAAAA==",
+              "Title": "Coin.cs",
+              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:37:12.701Z",
+              "WhenOpened": "2024-11-02T14:11:22.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:23:33.245Z",
+              "WhenOpened": "2024-11-02T10:37:12.701Z",
               "EditorCaption": ""
             }
           ]

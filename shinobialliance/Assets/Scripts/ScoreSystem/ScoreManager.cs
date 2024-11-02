@@ -6,6 +6,7 @@ public class ScoreManager : MonoBehaviour
 
     public int score { get; private set; }
     public int highScore { get; private set; }
+    public int coinsCollected { get; private set; } // New field to track coins
 
     private void Awake()
     {
@@ -32,9 +33,15 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
+    public void AddCoin()
+    {
+        coinsCollected++; // Increase coins collected count
+    }
+
     public void ResetScore()
     {
         score = 0;
+        coinsCollected = 0; // Reset coins collected when score resets
     }
 
     private void SaveHighScore()

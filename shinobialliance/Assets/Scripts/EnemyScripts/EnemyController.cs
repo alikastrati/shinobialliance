@@ -4,6 +4,8 @@ public class EnemyController : MonoBehaviour
 {
     public float speed = 2f;
     public Transform player;
+    public GameObject coinPrefab;
+
 
     private void Start()
     {
@@ -39,4 +41,6 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
+
+
 }

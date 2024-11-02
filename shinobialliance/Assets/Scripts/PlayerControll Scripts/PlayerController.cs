@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
     public Image healthBarImage; // Drag your HealthBar Image here in the Inspector
     public Sprite[] healthBarSprites; // Array for your health bar sprites
 
+    public GameObject coinPrefab; // Assign the coin prefab in the Inspector
+
+
     private void Start()
     {
         // Get the animator component attached to Player
@@ -59,11 +62,27 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            // Spawn a coin at the enemy's position
+            Instantiate(coinPrefab, collision.transform.position, Quaternion.identity);
+
+            // Destroy the enemy
             Destroy(collision.gameObject);
+
+            // Update score
             ScoreManager.instance.AddScore(1); // Add 1 point for each kill
             Debug.Log("Enemy destroyed! Current Score: " + ScoreManager.instance.score);
         }
+
+        if (collision.CompareTag("Coin")) // Condition to handle coin collection
+        {
+            ScoreManager.instance.AddCoin(); // Increase the coin count
+            Destroy(collision.gameObject); // Remove the coin
+            Debug.Log("Coin collected! Total coins: " + ScoreManager.instance.coinsCollected);
+        }
     }
+
+
+
 
     public void UpdateHealthBar()
     {
