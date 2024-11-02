@@ -57,10 +57,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy")) // Check if the collided object is an enemy
+        if (collision.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject); // Destroy the enemy
-            Debug.Log("Enemy destroyed!");
+            Destroy(collision.gameObject);
+            ScoreManager.instance.AddScore(1); // Add 1 point for each kill
+            Debug.Log("Enemy destroyed! Current Score: " + ScoreManager.instance.score);
         }
     }
 

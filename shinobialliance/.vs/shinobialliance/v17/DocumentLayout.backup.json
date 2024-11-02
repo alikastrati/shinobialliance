@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\shinobialliance\\shinobialliance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\scoresmanager\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresmanager\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|D:\\shinobialliance\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|D:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|D:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|D:\\shinobialliance\\shinobialliance\\assets\\scripts\\camerascripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\ScoresManager\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoresManager\\ScoreManager.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\ScoresManager\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoresManager\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T14:15:35.983Z",
+              "WhenOpened": "2024-11-02T10:37:12.701Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CameraScripts\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScripts\\CameraController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CameraScripts\\CameraController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraScripts\\CameraController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T13:43:15.23Z"
             },
             {
               "$type": "Document",
@@ -65,33 +41,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
               "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:23:33.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemySpawner.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemySpawner.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:22:46.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T10:21:05.583Z"
+              "WhenOpened": "2024-11-01T10:23:33.245Z",
+              "EditorCaption": ""
             }
           ]
         }
