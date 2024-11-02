@@ -6,7 +6,8 @@ public class ScoreManager : MonoBehaviour
 
     public int score { get; private set; }
     public int highScore { get; private set; }
-    public int coinsCollected { get; private set; } // New field to track coins
+    public int coinsCollected { get; private set; }
+    public int totalCoinsCollected { get; private set; } // For all games combined
 
     private void Awake()
     {
@@ -14,13 +15,12 @@ public class ScoreManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            LoadData();
         }
         else
         {
             Destroy(gameObject);
         }
-
-        LoadHighScore();
     }
 
     public void AddScore(int points)
@@ -35,13 +35,15 @@ public class ScoreManager : MonoBehaviour
 
     public void AddCoin()
     {
-        coinsCollected++; // Increase coins collected count
+        coinsCollected++;
+        totalCoinsCollected++;
+        SaveTotalCoins();
     }
 
-    public void ResetScore()
+    public void ResetGameSession()
     {
         score = 0;
-        coinsCollected = 0; // Reset coins collected when score resets
+        coinsCollected = 0;
     }
 
     private void SaveHighScore()
@@ -50,8 +52,15 @@ public class ScoreManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    private void LoadHighScore()
+    private void LoadData()
     {
         highScore = PlayerPrefs.GetInt("HighScore", 0);
+        totalCoinsCollected = PlayerPrefs.GetInt("TotalCoinsCollected", 0);
+    }
+
+    private void SaveTotalCoins()
+    {
+        PlayerPrefs.SetInt("TotalCoinsCollected", totalCoinsCollected);
+        PlayerPrefs.Save();
     }
 }

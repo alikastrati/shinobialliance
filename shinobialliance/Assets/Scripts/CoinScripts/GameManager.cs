@@ -1,33 +1,58 @@
 using UnityEngine;
-using TMPro; // Import the TextMeshPro namespace
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public TextMeshProUGUI coinsCollectedText; // This should be of type TextMeshProUGUI
-    private int coinsCollected = 0;
+    public TextMeshProUGUI coinsCollectedText; // Coins collected in current session
+    public TextMeshProUGUI totalCoinsText; // Total coins collected across all games
+
+    private int coinsCollected = 0; // Coins in current session
+    private int totalCoinsCollected = 0; // Total coins saved across sessions
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Keep this GameObject across scenes
+            DontDestroyOnLoad(gameObject); // Persist across scenes
         }
         else
         {
-            Destroy(gameObject); // Destroy duplicate instance
+            Destroy(gameObject); // Destroy duplicate instances
         }
+
+        LoadTotalCoins(); // Load total coins at start
+    }
+
+    private void StartNewGame()
+    {
+        coinsCollected = 0; // Reset session coins for new game
+        UpdateCoinUI();
     }
 
     public void AddCoin()
     {
-        coinsCollected++; // Increase the coin count
-        UpdateCoinUI(); // Update the UI text
+        coinsCollected++; // Increase session coins
+        totalCoinsCollected++; // Increase total coins
+        UpdateCoinUI();
+        SaveTotalCoins(); // Save total after each coin is added
     }
 
     private void UpdateCoinUI()
     {
-        coinsCollectedText.text = "Coins: " + coinsCollected; // Update the text to show the current coins collected
+        coinsCollectedText.text = "Coins: " + coinsCollected; // Display session coins
+        totalCoinsText.text = "Total Coins: " + totalCoinsCollected; // Display total coins on main menu
+    }
+
+    private void SaveTotalCoins()
+    {
+        PlayerPrefs.SetInt("TotalCoins", totalCoinsCollected);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadTotalCoins()
+    {
+        totalCoinsCollected = PlayerPrefs.GetInt("TotalCoins", 0);
     }
 }

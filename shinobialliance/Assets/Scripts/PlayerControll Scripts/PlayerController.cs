@@ -72,12 +72,6 @@ public class PlayerController : MonoBehaviour
             ScoreManager.instance.AddScore(1); // Add 1 point for each kill
             Debug.Log("Enemy destroyed! Current Score: " + ScoreManager.instance.score);
         }
-        //else if (collision.CompareTag("Coin")) // New condition to handle coin collection
-        //{
-        //    ScoreManager.instance.AddCoin(); // Increase the coin count
-        //    Destroy(collision.gameObject); // Remove the coin
-        //    Debug.Log("Coin collected! Total coins: " + ScoreManager.instance.coinsCollected);
-        //}
     }
 
 

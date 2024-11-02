@@ -6343,66 +6343,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443207194}
   m_CullTransparentMesh: 1
---- !u!1 &1478028358
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1478028361}
-  - component: {fileID: 1478028360}
-  - component: {fileID: 1478028359}
-  m_Layer: 0
-  m_Name: ScoreManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1478028359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478028358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf48101afc4272e44a28c64126a51c1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreTextTMP: {fileID: 698337854}
-  highScoreTextTMP: {fileID: 1942205972}
-  coinsCollectedTextTMP: {fileID: 756664835}
---- !u!114 &1478028360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478028358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 257a8b403e16f804580e86af9dcc9044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1478028361
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478028358}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 642, y: 1389.3055, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1807192361
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,6 +6390,67 @@ MonoBehaviour:
   enemyPrefab: {fileID: 8095895533468530739, guid: 6a9d9fffd0b64344caa151569c780a4c, type: 3}
   spawnInterval: 3
   wallTilemap: {fileID: 1921498836}
+--- !u!1 &1871500036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871500039}
+  - component: {fileID: 1871500038}
+  - component: {fileID: 1871500037}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1871500037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871500036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf48101afc4272e44a28c64126a51c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreTextTMP: {fileID: 698337854}
+  highScoreTextTMP: {fileID: 1942205972}
+  coinsCollectedTextTMP: {fileID: 756664835}
+  totalCoinsCollectedTextTMP: {fileID: 0}
+--- !u!114 &1871500038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871500036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257a8b403e16f804580e86af9dcc9044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1871500039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871500036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 860.32306, y: 1446.736, z: -18.731691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1921498833
 GameObject:
   m_ObjectHideFlags: 0
@@ -8199,4 +8200,4 @@ SceneRoots:
   - {fileID: 1432843552}
   - {fileID: 2103353158}
   - {fileID: 560994969}
-  - {fileID: 1478028361}
+  - {fileID: 1871500039}
