@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public int health = 5; // Start with full health (5)
 
     // Reference to the joystick
-    public Joystick joystick;
+    public FixedJoystick joystick;
 
     private Animator animator;
 
@@ -30,6 +30,24 @@ public class PlayerController : MonoBehaviour
         // Get the animator component attached to Player
         animator = GetComponent<Animator>();
         rigidBodyVar = GetComponent<Rigidbody2D>();
+
+        if (joystick == null)
+        {
+            joystick = FindObjectOfType<FixedJoystick>();
+        }
+
+        if (healthBarImage == null)
+        {
+            GameObject healthBarObject = GameObject.Find("CanvasUI/HealthBar");
+            if (healthBarObject != null)
+            {
+                healthBarImage = healthBarObject.GetComponent<Image>();
+            }
+            else
+            {
+                Debug.LogError("HealthBar object not found! Ensure it's named 'HealthBar' and is in 'CanvasUI'.");
+            }
+        }
 
         // Reference the attack collider from the child GameObject
         attackCollider = transform.Find("AttackCollider").GetComponent<BoxCollider2D>();

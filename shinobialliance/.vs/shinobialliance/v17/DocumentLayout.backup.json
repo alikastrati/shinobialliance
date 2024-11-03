@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\shinobialliance\\shinobialliance\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|D:\\shinobialliance\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\camerascripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|d:\\shinobialliance\\shinobialliance\\assets\\scripts\\coinscripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\scoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystem\\scoredisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystem\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\coinscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\coinscripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinscripts\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +47,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:14:32.36Z",
+              "WhenOpened": "2024-11-03T13:31:19.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Coin.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinScripts\\Coin.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CoinScripts\\Coin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CameraScripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CameraScripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraScripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:11:22.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:24:43.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\ScoreDisplay.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreSystem\\ScoreDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T21:01:24.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T21:00:08.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CoinScripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinScripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CoinScripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinScripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:45:24.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinScripts\\Coin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:45:06.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:44:45.419Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ToolTip": "D:\\shinobialliance\\shinobialliance\\Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyScripts\\EnemyController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswCwAAAAAAAAAAAAAAA==",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwIwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:37:12.701Z",
+              "WhenOpened": "2024-11-02T14:37:13.805Z",
               "EditorCaption": ""
             }
           ]
