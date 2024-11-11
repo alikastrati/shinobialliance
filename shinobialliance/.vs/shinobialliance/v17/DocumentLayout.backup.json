@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\ui stuff\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\ui stuff\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ui stuff\\inventory\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:11:22.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T14:11:22.797Z"
             },
             {
               "$type": "Document",

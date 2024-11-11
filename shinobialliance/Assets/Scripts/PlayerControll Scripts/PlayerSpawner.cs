@@ -11,8 +11,21 @@ public class PlayerSpawner : MonoBehaviour
 
     private void SpawnPlayer()
     {
-        // Instantiate the selected character at the spawn point
+        // Get the selected character from CharacterManager
         GameObject selectedCharacter = CharacterManager.instance.GetSelectedCharacter();
-        Instantiate(selectedCharacter, spawnPoint.transform.position, Quaternion.identity);
+
+        if (selectedCharacter != null)
+        {
+            // Spawn the selected character at the spawn point
+            Instantiate(selectedCharacter, spawnPoint.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            // Display a warning if no character has been selected
+            Debug.LogWarning("No character selected or character not purchased.");
+
+            // Optional: Instantiate a default character here if desired
+         // Example: Instantiate(defaultCharacterPrefab, spawnPoint.transform.position, Quaternion.identity);
+        }
     }
 }

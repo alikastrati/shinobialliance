@@ -63,4 +63,11 @@ public class ScoreManager : MonoBehaviour
         PlayerPrefs.SetInt("TotalCoinsCollected", totalCoinsCollected);
         PlayerPrefs.Save();
     }
+
+    public void DeductCoins(int amount)
+    {
+        totalCoinsCollected -= amount;
+        SaveTotalCoins();
+    }
+
 }
