@@ -26,21 +26,28 @@ public class CharacterManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable()
     {
+        // Reload purchase data when the object is enabled
         LoadPurchaseData();
-        
-        // Make the first character available by default
+
         isPurchased[0] = true;
 
         // Load the last selected character or default to the first one
         selectedCharacterIndex = PlayerPrefs.GetInt("SelectedCharacterIndex", 0);
+
         if (!isPurchased[selectedCharacterIndex])
         {
             selectedCharacterIndex = 0; // Default to the first character if not purchased
         }
 
         currentIndex = selectedCharacterIndex; // Update current index to reflect the last selection
+        UpdateCharacterDisplay();
+    }
+
+    private void Start()
+    {
+        // Only call this once when the scene is first loaded, but ensure display is updated after OnEnable
         UpdateCharacterDisplay();
     }
 
@@ -58,15 +65,18 @@ public class CharacterManager : MonoBehaviour
 
     private void UpdateCharacterDisplay()
     {
-        characterDisplay.sprite = playerPrefabs[currentIndex].GetComponent<SpriteRenderer>().sprite;
+        if (playerPrefabs.Length > 0)
+        {
+            characterDisplay.sprite = playerPrefabs[currentIndex].GetComponent<SpriteRenderer>().sprite;
 
-        if (isPurchased[currentIndex])
-        {
-            coinRequirementText.text = "Owned";
-        }
-        else
-        {
-            coinRequirementText.text = $"Price: {characterPrices[currentIndex]} Coins";
+            if (isPurchased[currentIndex])
+            {
+                coinRequirementText.text = "Owned";
+            }
+            else
+            {
+                coinRequirementText.text = $"Price: {characterPrices[currentIndex]} Coins";
+            }
         }
     }
 

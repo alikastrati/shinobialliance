@@ -11,6 +11,6 @@ public class ScoreDisplay : MonoBehaviour
     {
         scoreTextTMP.text = "Score: " + ScoreManager.instance.score;
         highScoreTextTMP.text = "High Score: " + ScoreManager.instance.highScore;
-        coinsCollectedTextTMP.text = "Coins: " + ScoreManager.instance.coinsCollected; // Current session coins
+        coinsCollectedTextTMP.text = ": " + ScoreManager.instance.coinsCollected; // Current session coins
     }
 }

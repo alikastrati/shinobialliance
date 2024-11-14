@@ -9,6 +9,6 @@ public class MainMenuDisplay : MonoBehaviour
     {
         // Load total coins from PlayerPrefs
         int totalCoins = PlayerPrefs.GetInt("TotalCoinsCollected", 0);
-        totalCoinsText.text = "Total Coins: " + totalCoins;
+        totalCoinsText.text = ": " + totalCoins;
     }
 }

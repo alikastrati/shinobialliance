@@ -22,25 +22,28 @@ public class EnemyController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Player"))
     {
-        if (collision.gameObject.CompareTag("Player")) // Ensure your Player has the "Player" tag
+        PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+        if (playerController != null)
         {
-            PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
-            if (playerController != null)
-            {
-                playerController.health--; // Reduce player health
-                playerController.UpdateHealthBar(); // Update the health bar display
+            playerController.health--; // Reduce player health
+            playerController.UpdateHealthBar(); // Update the health bar display
 
-                if (playerController.health <= 0)
-                {
-                    // Handle player death
-                    Debug.Log("Player has died!");
-                    Destroy(collision.gameObject); // Destroy the player GameObject
-                }
-                // Do not destroy the enemy here; let it continue to exist.
+            if (playerController.health <= 0)
+            {
+                // Handle player death
+                Debug.Log("Player has died!");
+                Destroy(collision.gameObject); // Destroy the player GameObject
+
+                // Show the death popup (ensure there's a DeathHandler in the scene)
+                FindObjectOfType<DeathHandler>().ShowDeathPopup();  // Show death UI
             }
         }
     }
+}
+
 
 
 }
