@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\mainmenudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystem\\mainmenudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\ui stuff\\inventory\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\inventory\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystem\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainMenuDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:35:36.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerSpawner.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerSpawner.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:22:29.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:22:29.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
@@ -47,18 +63,17 @@
               "RelativeToolTip": "Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAswEMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:02:04.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T08:02:04.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CharacterManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
               "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAqwG8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T16:39:14.361Z",
               "EditorCaption": ""

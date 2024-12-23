@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroll scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\scoresystem\\mainmenudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoresystem\\mainmenudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|c:\\users\\asus tuf\\desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\ui stuff\\inventory\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\assets\\scripts\\ui stuff\\inventory\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C12C468-F4B1-87B3-723B-47EC03E5DCE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui stuff\\inventory\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControll Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowIkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T23:40:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainMenuDisplay.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\MainMenuDisplay.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\PlayerControll Scripts\\PlayerSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControll Scripts\\PlayerSpawner.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreSystem\\ScoreManager.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CharacterManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Desktop\\asdasf\\asjkda\\shinobialliance\\Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
@@ -75,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI Stuff\\Inventory\\CharacterManager.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAqwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T16:39:14.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T16:39:14.361Z"
             }
           ]
         }
