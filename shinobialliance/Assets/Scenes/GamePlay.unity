@@ -14986,6 +14986,50 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &692149807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692149809}
+  - component: {fileID: 692149808}
+  m_Layer: 0
+  m_Name: test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &692149808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692149807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e7c1fa93463de42ae7a0e11d0e560d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &692149809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692149807}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4147424, y: -0.54436857, z: 0.20644857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698337851
 GameObject:
   m_ObjectHideFlags: 0
@@ -15583,6 +15627,7 @@ GameObject:
   - component: {fileID: 1090729024}
   - component: {fileID: 1090729023}
   - component: {fileID: 1090729022}
+  - component: {fileID: 1090729025}
   m_Layer: 5
   m_Name: Countinue (Watch an Ad)
   m_TagString: Untagged
@@ -15653,7 +15698,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1090729023}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1090729025}
+        m_TargetAssemblyTypeName: ShowAdButton, Assembly-CSharp
+        m_MethodName: OnShowRewardedButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1090729023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15692,6 +15749,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090729020}
   m_CullTransparentMesh: 1
+--- !u!114 &1090729025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090729020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e7c1fa93463de42ae7a0e11d0e560d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121901340
 GameObject:
   m_ObjectHideFlags: 0
@@ -15704,6 +15773,7 @@ GameObject:
   - component: {fileID: 1121901344}
   - component: {fileID: 1121901343}
   - component: {fileID: 1121901342}
+  - component: {fileID: 1121901345}
   m_Layer: 5
   m_Name: BackMainMenu
   m_TagString: Untagged
@@ -15774,7 +15844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1121901343}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1121901345}
+        m_TargetAssemblyTypeName: ShowAdButton, Assembly-CSharp
+        m_MethodName: OnShowAdButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1121901343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15813,6 +15895,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121901340}
   m_CullTransparentMesh: 1
+--- !u!114 &1121901345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121901340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e7c1fa93463de42ae7a0e11d0e560d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1369230862
 GameObject:
   m_ObjectHideFlags: 0
@@ -18594,3 +18688,4 @@ SceneRoots:
   - {fileID: 923765778}
   - {fileID: 320465362}
   - {fileID: 74408130}
+  - {fileID: 692149809}
