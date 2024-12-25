@@ -177,7 +177,21 @@ public class AdsManager : MonoBehaviour,
     // =========================================
     private void GrantReward()
     {
-        // Here is where you credit the user’s account, give items, or whatever your “reward” is.
-        Debug.Log("Rewarded Ad Completed! Grant the reward to the player here.");
+        if (ScoreManager.instance != null)
+        {
+            ScoreManager.instance.AddCoins(20);
+            Debug.Log("Rewarded Ad Completed! +20 coins added to the player!");
+
+            // Immediately refresh the display
+            MainMenuDisplay display = FindObjectOfType<MainMenuDisplay>();
+            if (display != null)
+            {
+                display.UpdateCoinsDisplay();
+            }
+        }
+        else
+        {
+            Debug.LogWarning("ScoreManager instance is null. Cannot add coins.");
+        }
     }
 }

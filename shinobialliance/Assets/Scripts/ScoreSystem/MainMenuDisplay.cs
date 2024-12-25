@@ -5,10 +5,23 @@ public class MainMenuDisplay : MonoBehaviour
 {
     public TextMeshProUGUI totalCoinsText;
 
-    private void Start()
+    void Start()
     {
-        // Load total coins from PlayerPrefs
-        int totalCoins = PlayerPrefs.GetInt("TotalCoinsCollected", 0);
-        totalCoinsText.text = ": " + totalCoins;
+        UpdateCoinsDisplay();
+    }
+
+    public void UpdateCoinsDisplay()
+    {
+        if (ScoreManager.instance != null)
+        {
+            // Grab the up-to-date coin count from ScoreManager
+            int currentCoins = ScoreManager.instance.totalCoinsCollected;
+            totalCoinsText.text = ": " + currentCoins;
+        }
+        else
+        {
+            // Fallback if ScoreManager doesn't exist yet
+            totalCoinsText.text = ": 0";
+        }
     }
 }

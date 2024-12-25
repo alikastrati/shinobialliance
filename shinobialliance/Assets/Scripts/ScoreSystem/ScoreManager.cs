@@ -70,4 +70,10 @@ public class ScoreManager : MonoBehaviour
         SaveTotalCoins();
     }
 
+    public void AddCoins(int amount)
+    {
+        totalCoinsCollected += amount;
+        SaveTotalCoins();
+    }
+
 }
