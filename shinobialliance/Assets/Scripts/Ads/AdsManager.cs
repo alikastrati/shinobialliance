@@ -16,6 +16,14 @@ public class AdsManager : MonoBehaviour,
     // Rewarded
     private string rewardedPlacementId;
 
+    // ---------------------
+    // BANNER CODE START
+    // ---------------------
+    private string bannerPlacementId;  
+    // ---------------------
+    // BANNER CODE END
+    // ---------------------
+
     // Singleton-ish pattern (optional)
     private static AdsManager instance;
 
@@ -42,16 +50,34 @@ public class AdsManager : MonoBehaviour,
     {
 #if UNITY_ANDROID
         gameId = androidGameId;
-        interstitialPlacementId = "Interstitial_Android"; // Set your Interstitial placement ID
-        rewardedPlacementId = "Rewarded_Android";         // Set your Rewarded placement ID
+        interstitialPlacementId = "Interstitial_Android"; // Interstitial
+        rewardedPlacementId = "Rewarded_Android";         // Rewarded
+        // ---------------------
+        // BANNER CODE START
+        // ---------------------
+        bannerPlacementId = "Banner_Android";             // Banner for Android
+        // ---------------------
+        // BANNER CODE END
 #elif UNITY_IOS
         gameId = iOSGameId;
         interstitialPlacementId = "Interstitial_iOS";
         rewardedPlacementId = "RewardedIOS";
+        // ---------------------
+        // BANNER CODE START
+        // ---------------------
+        bannerPlacementId = "Banner_iOS";                 // Banner for iOS
+        // ---------------------
+        // BANNER CODE END
 #else
         gameId = androidGameId; // fallback
         interstitialPlacementId = "Interstitial_Android";
         rewardedPlacementId = "Rewarded_Android";
+        // ---------------------
+        // BANNER CODE START
+        // ---------------------
+        bannerPlacementId = "Banner_Android";             // Banner fallback
+        // ---------------------
+        // BANNER CODE END
 #endif
 
         Advertisement.Initialize(gameId, testMode, this);
@@ -67,6 +93,14 @@ public class AdsManager : MonoBehaviour,
         // Load both ad types after initialization
         LoadInterstitial();
         LoadRewardedAd();
+
+        // ---------------------
+        // BANNER CODE START
+        // If you want to load/show a banner immediately
+        // ---------------------
+        LoadBannerAd();
+        // ---------------------
+        // BANNER CODE END
     }
 
     public void OnInitializationFailed(UnityAdsInitializationError error, string message)
@@ -109,6 +143,76 @@ public class AdsManager : MonoBehaviour,
         Debug.Log("Showing Rewarded Ad...");
         Advertisement.Show(rewardedPlacementId, this);
     }
+
+    // =========================================
+    // BANNER CODE START
+    // =========================================
+    public void LoadBannerAd()
+    {
+        Debug.Log("Loading Banner Ad...");
+        // You can set the banner position before loading
+        Advertisement.Banner.SetPosition(BannerPosition.BOTTOM_CENTER);
+
+        // Set up callbacks
+        var bannerLoadOptions = new BannerLoadOptions
+        {
+            loadCallback = OnBannerLoaded,
+            errorCallback = OnBannerError
+        };
+
+        Advertisement.Banner.Load(bannerPlacementId, bannerLoadOptions);
+    }
+
+    private void OnBannerLoaded()
+    {
+        Debug.Log("Banner Ad Loaded Successfully!");
+
+        // Optionally, show banner immediately after loading
+        ShowBannerAd();
+    }
+
+    private void OnBannerError(string message)
+    {
+        Debug.LogError($"Banner failed to load: {message}");
+        // Could retry here if needed...
+    }
+
+    public void ShowBannerAd()
+    {
+        Debug.Log("Showing Banner Ad...");
+        var bannerOptions = new BannerOptions
+        {
+            clickCallback = OnBannerClicked,
+            showCallback = OnBannerShown,
+            hideCallback = OnBannerHidden
+        };
+
+        Advertisement.Banner.Show(bannerPlacementId, bannerOptions);
+    }
+
+    public void HideBannerAd()
+    {
+        Debug.Log("Hiding Banner Ad...");
+        Advertisement.Banner.Hide();
+    }
+
+    private void OnBannerClicked()
+    {
+        Debug.Log("Banner Clicked!");
+    }
+
+    private void OnBannerShown()
+    {
+        Debug.Log("Banner is now visible!");
+    }
+
+    private void OnBannerHidden()
+    {
+        Debug.Log("Banner is hidden!");
+    }
+    // =========================================
+    // BANNER CODE END
+    // =========================================
 
     // =========================================
     // IUnityAdsLoadListener Callbacks

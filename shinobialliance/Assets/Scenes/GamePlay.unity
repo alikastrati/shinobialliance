@@ -15847,7 +15847,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1121901345}
         m_TargetAssemblyTypeName: ShowAdButton, Assembly-CSharp
-        m_MethodName: OnShowAdButtonClicked
+        m_MethodName: OnShowInterstitialButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
